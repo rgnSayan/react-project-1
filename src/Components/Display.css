@@ -1,0 +1,389 @@
+.display__up > img {
+  float: left;
+  padding-top: 30px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.display__down > img {
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+.display__left {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid black;
+  flex: 0.4;
+  width: 550px;
+}
+
+.display {
+  padding: 20px;
+  display: flex;
+}
+
+.display__img1 {
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 5px;
+}
+.display__right {
+  border: 1px solid black;
+  margin-left: 10px;
+  flex: 0.6;
+}
+
+.display__component1 {
+  border-bottom: 1px solid black;
+}
+
+.display__component1 > span {
+  font-weight: bold;
+  font-size: 23px !important;
+  text-align: justify;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.display__rightDown {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.display__rightDown > p {
+  color: gray;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.display__rightDown > span {
+  padding-left: 9px;
+  margin-right: 10px;
+}
+.star {
+  display: flex;
+  margin-right: 10px;
+}
+.star1 {
+  color: gold;
+}
+.star2 {
+  color: lightgray;
+}
+.display__component2 {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.display__component2Left {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-right: 1px solid black;
+}
+
+.display__component2Left > span {
+  font-weight: bold;
+  color: gray;
+  font-size: 30px;
+  font-style: italic;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.display__component2LeftActualPrice > span {
+  font-weight: bold;
+  font-size: 30px;
+  color: red;
+  font-style: italic;
+}
+.display__component2LeftActualPrice {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.display__component2LeftSave1 {
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.display__component2LeftSave1 > span {
+  padding-right: 5px;
+  font-weight: bold;
+  color: gray;
+  font-size: 17px;
+}
+
+.display__component2LeftSave1 > p {
+  font-size: 17px;
+  font-style: italic;
+  color: red;
+  font-weight: bold;
+  padding-right: 5px;
+}
+.display__component2LeftSave > span {
+  padding-right: 5px;
+  font-weight: bold;
+  color: gray;
+  font-size: 25px;
+}
+
+.display__component2Delivery > p {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0;
+  font-style: italic;
+  text-indent: 0;
+  display: inline;
+}
+
+.display__component2Right {
+  flex: 0.5;
+}
+
+.display__component2RightCheck {
+  display: flex;
+  align-items: center;
+}
+.display__component2RightCheck > .MuiSvgIcon-root {
+  padding: 10px;
+}
+.display__component2RightCheck > span {
+  padding-right: 5px;
+  font-weight: bold;
+}
+.display__component2RightCheck > p {
+  font-weight: bold;
+  color: red;
+}
+.display__component2RightUnCheck1 {
+  display: flex;
+  align-items: center;
+}
+.display__component2RightUnCheck1 > .MuiSvgIcon-root {
+  padding: 10px;
+}
+.display__component2RightUnCheck1 > span {
+  font-weight: bold;
+  padding-right: 10px;
+  font-size: 17px;
+}
+.display__component2RightUnCheck2 > span {
+  color: red;
+  padding-right: 5px;
+}
+.display__component2RightUnCheck2 > span > del {
+  color: black;
+}
+.display__dp1 {
+  display: flex;
+  align-items: center;
+}
+.display__dp1 > span {
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.display__dp1 > .size1 {
+  margin-right: 10px;
+  border: 1px solid black;
+  padding: 5px 5px;
+}
+.display__size {
+  display: flex;
+  align-items: center;
+}
+.display__dp2 > span {
+  font-weight: bold;
+  padding-right: 10px;
+}
+.display__dp2 > img {
+  margin-right: 10px;
+  border: 1px solid black;
+  padding: 5px 1px;
+  height: 20px;
+}
+.display__dp3 > span {
+  font-weight: bold;
+  font-size: 12px;
+}
+.display__input > button {
+  border-radius: 25px;
+  background-color: #1976d2;
+  color: white;
+  margin-left: 5px;
+  padding: 10px 13px;
+}
+.display__input > input {
+  border-radius: 20px;
+  width: 75%;
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+}
+
+.display__input {
+  display: flex;
+  align-items: center;
+  background-color: #eff2f5;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 25px;
+}
+.display__button {
+  margin-top: 10px;
+  display: flex;
+}
+
+.display__button1 {
+  margin-right: 10px;
+  width: 50%;
+  border-radius: 25px;
+  background-color: red;
+  padding: 15px;
+  color: white;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.display__button2 {
+  margin-right: 10px;
+  width: 50%;
+  border-radius: 25px;
+  background-color: #1976d2;
+  padding: 15px;
+  color: white;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.display__middle01 {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.display__middle01 > span {
+  margin-right: 5px;
+  color: #1976d2;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.display__middle01 > .MuiSvgIcon-root {
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #1976d2;
+}
+
+.display__middle02 {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.display__middle02 > span {
+  margin-right: 5px;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.display__middle02 > p {
+  font-style: italic;
+  text-align: justify;
+}
+.display__bottom01 > span {
+  font-size: 15px;
+  font-style: italic;
+  color: green;
+  font-weight: bold;
+  float: left;
+}
+.display__bottom1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.display__bottom01 > p {
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+}
+
+.display__iconsTextLeft {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  flex-direction: column;
+  float: left;
+}
+
+.display__row {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.display__row > span {
+  margin-left: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.display__row > .MuiSvgIcon-root {
+  font-size: 35px;
+  color: gold;
+}
+.display__row1 {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.display__row1 > span {
+  margin-left: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.display__row1 > .MuiSvgIcon-root {
+  font-size: 35px;
+  color: gold;
+  margin-left: 19px;
+}
+.display__column {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.display__column > span {
+  margin-left: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.display__column > .MuiSvgIcon-root {
+  font-size: 35px;
+  color: gold;
+  margin-left: 19px;
+}
+.display__iconsTextRight {
+  float: right;
+  margin-right: 50px;
+}

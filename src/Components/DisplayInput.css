@@ -1,0 +1,148 @@
+.displayInput {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px 35px;
+}
+
+.displayInput > span {
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.displayInput > input {
+  width: 40%;
+  margin-left: 30%;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 35px;
+  outline: none;
+}
+
+.displayInput > button {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 20px;
+  width: 200px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  margin-left: 45%;
+}
+.displayInput__price {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 10px;
+}
+
+.displayInput__price > span {
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  padding-top: 10px;
+  margin: 0px 35px;
+}
+
+.displayInput__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.displayInput__items > img {
+  height: 120px;
+  width: 100px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 30px 20px;
+}
+.displayInput__items1 > img {
+  height: 120px;
+  width: 110px;
+  margin-top: 20px;
+  padding: 30px 20px;
+}
+
+.displayInput__items > p {
+  text-align: justify;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.displayInput__items1 > p {
+  text-align: justify;
+  margin-left: 50px;
+  font-weight: bold;
+}
+.star {
+  margin-left: 50px;
+}
+.star__text {
+  display: flex;
+}
+
+.product__star {
+  display: flex;
+  align-items: center;
+}
+
+.star__text > p {
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+.displayInput__product {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+}
+.addIcon > .MuiSvgIcon-root {
+  font-size: 100px;
+  font-weight: bolder;
+  margin-top: 70px;
+}
+.input__price {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.total__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total__price > span {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+.total__price > p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.total__price1 > span {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+.total__price1 > p {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.input__total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

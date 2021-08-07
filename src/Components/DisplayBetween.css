@@ -1,0 +1,173 @@
+.displayBetween {
+  border: 1px solid black;
+  margin: 20px;
+  display: flex;
+}
+
+.displayBetween__Text {
+  display: flex;
+  font-weight: bold;
+  font-size: 17px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.displayBetween__Text > p {
+  margin-left: 10px;
+}
+
+.displayBetween__Left > span {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  margin-left: 15px;
+}
+
+.displayBetween__LeftDetails {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.displayBetween__LeftDetails1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.displayBetween__Left > span {
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  margin: 10px;
+}
+
+.displayBetween__Left > p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 8px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.displayBetween__RightImg > img {
+  float: right;
+  height: 100px;
+  border: 1px solid black;
+  padding: 10px 0px;
+  margin: 10px;
+}
+.displayBetween__LeftSide {
+  flex: 0.6;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.displayBetween__RightSide {
+  flex: 0.4;
+  border: 1px solid black;
+}
+
+.displayBetween__Text1 {
+  display: flex;
+  font-weight: bold;
+  font-size: 17px;
+  border-bottom: 1px solid black;
+}
+.displayBetween__Text1 > p {
+  margin-left: 10px;
+}
+.displayBetween__RightText {
+  border-bottom: 1px solid black;
+}
+
+.displayBetween__RightText > p {
+  color: red;
+  display: flex;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.displayBetween__RightText > span {
+  display: flex;
+  margin-left: 10px;
+  text-align: justify;
+}
+.displayBetween__RightText > span > b {
+  margin-right: 5px;
+}
+.displayBetween__TextForModal {
+  display: flex;
+  padding: 20px 10px;
+}
+.displayBetween__TextForModal > p {
+  text-decoration: none;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.modal__info {
+  display: flex;
+}
+.modal__clear > .MuiSvgIcon-root {
+  top: 0;
+  display: flex;
+  float: right;
+  font-size: 40px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.modal__info {
+  border-bottom: 1px solid #000;
+}
+
+.modal__info > h1 {
+  padding-bottom: 30px;
+}
+.modal__info__Left {
+  display: flex;
+  align-items: center;
+}
+.modal__info__Left > p {
+  padding-right: 30px;
+  font-size: 27px;
+}
+.modal__info__Right {
+  display: flex;
+  align-items: center;
+}
+.modal__info__Right > p {
+  padding-right: 30px;
+  font-size: 27px;
+}
+.modal__infoMain {
+  display: flex;
+  justify-content: space-around;
+}
+.modal__info__leftList > p {
+  font-size: 25px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.modal__info__leftList > p:hover {
+  color: #1976d2;
+  background-color: lightgray;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.modal__info__Main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal__info__RightList > p {
+  font-size: 25px;
+  font-weight: bold;
+}
+.modal__info__RightList > span {
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
+}
